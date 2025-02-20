@@ -464,12 +464,12 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "SmoothBusT2A.emn",
       "netlist": "",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SmoothBusT2Ascrwholes.step",
       "svg": "",
       "vrml": ""
     },
