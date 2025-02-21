@@ -2470,6 +2470,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 132.08) (xy 234.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e8b7d0-01b5-4989-9cb2-ee3c271e2d4a")
+	)
+	(wire
+		(pts
 			(xy 54.61 83.82) (xy 77.47 83.82)
 		)
 		(stroke
@@ -2747,28 +2757,6 @@
 			(type default)
 		)
 		(uuid "f2d58317-a555-4c68-953b-a9b6156fd974")
-	)
-	(global_label "LED_Out"
-		(shape input)
-		(at 153.67 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "164f6229-9eb5-40d7-a837-c0045daf54c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.2751 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "5V"
 		(shape input)
@@ -3100,6 +3088,28 @@
 			)
 		)
 	)
+	(global_label "LED_Out"
+		(shape input)
+		(at 153.67 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90b753d3-1a17-44fb-833f-68d09ca01705")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.2751 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Servo_Signal"
 		(shape input)
 		(at 220.98 85.09 180)
@@ -3311,6 +3321,28 @@
 		(uuid "dafb4723-5e34-4001-8a1c-899280b278c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 166.8151 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Probe_PB2"
+		(shape input)
+		(at 234.95 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f85eb858-80b5-4bb3-ad3d-1e30c6932db5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.0951 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
