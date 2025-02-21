@@ -7,4 +7,4 @@ An addaption of the [Smoothbus project](https://github.com/PegorK/SmoothBus/tree
 [Schematic PDF](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/hardware/SmoothBusT2A.pdf)
 
 
-![alt tag](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/explodedview.png?raw=true "exploded view")
+![alt tag](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/explodeddiagramrender.png?raw=true "exploded view")
