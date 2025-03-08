@@ -2203,6 +2203,12 @@
 		)
 	)
 	(junction
+		(at 87.63 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08efb7e2-1865-4d3a-9e47-e90f38df0ec7")
+	)
+	(junction
 		(at 55.88 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2237,6 +2243,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb40adec-1118-48f0-907f-c4af01653d97")
+	)
+	(wire
+		(pts
+			(xy 76.2 167.64) (xy 87.63 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e06f568-e442-4fd3-9d75-a6d1d51503f6")
 	)
 	(wire
 		(pts
@@ -2350,6 +2366,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 172.72) (xy 87.63 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49622557-01ef-47b9-b8ed-3ca542731fbc")
+	)
+	(wire
+		(pts
 			(xy 39.37 148.59) (xy 39.37 144.78)
 		)
 		(stroke
@@ -2457,6 +2483,16 @@
 			(type default)
 		)
 		(uuid "722f190e-f13e-47f3-a10c-987d1a2c8668")
+	)
+	(wire
+		(pts
+			(xy 87.63 167.64) (xy 87.63 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7622604e-d44f-47db-b3aa-af27ae60c7c8")
 	)
 	(wire
 		(pts
@@ -3022,6 +3058,28 @@
 			)
 		)
 	)
+	(global_label "Probe_PB4"
+		(shape input)
+		(at 68.58 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75f76e5f-b0bb-4465-b114-d00017269740")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.4349 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_DIV"
 		(shape input)
 		(at 153.67 139.7 0)
@@ -3150,6 +3208,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Probe_PB3"
+		(shape input)
+		(at 68.58 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b18f3fde-0436-4029-adac-92cbbc2d5306")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.4349 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3442,6 +3522,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 87.63 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d5f9b63-4e25-4251-9111-30c4f6745ec7")
+		(property "Reference" "#PWR08"
+			(at 87.63 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ffe1cb6-a663-41c2-8288-6fd89ddd7898")
+		)
+		(instances
+			(project "SmoothBusT2A"
+				(path "/4b38f82f-1b76-43b8-9861-8cc56d1bb5d6"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 232.41 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3692,6 +3838,24 @@
 				(hide yes)
 			)
 		)
+		(property " Sim.Name" ""
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/heathlee/Workspace/PCBA Design/150060VS55040/WL-SMCD_0603.kicad_mod"
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c715893f-4c5d-4123-bc72-fdef668d7dac")
 		)
@@ -3878,6 +4042,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property " Sim.Name" ""
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/heathlee/Workspace/PCBA Design/OF-SMD3528WC/LED_OF-SMD3528WC.kicad_mod"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4299,6 +4481,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 72.39 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c15d834-8814-4369-b697-2c1d81805406")
+		(property "Reference" "R5"
+			(at 72.39 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R10k"
+			(at 72.39 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 72.39 169.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "565d7e26-2054-4c9d-a59c-18d3ccc85038")
+		)
+		(pin "2"
+			(uuid "81e2895f-f9f3-4eff-a8cd-6dec2404dced")
+		)
+		(instances
+			(project "SmoothBusT2A"
+				(path "/4b38f82f-1b76-43b8-9861-8cc56d1bb5d6"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 148.59 0)
 		(unit 1)
@@ -4359,6 +4609,74 @@
 			(project "SmoothBusT2A"
 				(path "/4b38f82f-1b76-43b8-9861-8cc56d1bb5d6"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a436fc5d-b278-4baa-add2-6ec3b0249f21")
+		(property "Reference" "R6"
+			(at 72.39 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R10k"
+			(at 72.39 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 72.39 174.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b700183-ee8d-49af-ad3b-3a5f3df3bd83")
+		)
+		(pin "2"
+			(uuid "ffdc1ea3-0700-45b9-9a52-42e01fd0c06a")
+		)
+		(instances
+			(project "SmoothBusT2A"
+				(path "/4b38f82f-1b76-43b8-9861-8cc56d1bb5d6"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5005,6 +5323,24 @@
 				(hide yes)
 			)
 		)
+		(property " Sim.Name" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/heathlee/Workspace/PCBA Design/OF-SMD3528WC/LED_OF-SMD3528WC.kicad_mod"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a6d4451-e0c2-46cf-abc0-9722a5c82a5c")
 		)
@@ -5135,6 +5471,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/heathlee/Workspace/PCBA Design/ATTINY85_20SU/8S2_ATM.kicad_mod"
 			(at 44.45 137.16 0)
 			(effects
 				(font

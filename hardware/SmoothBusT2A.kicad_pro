@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,7 +52,14 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|60300000|55500000|70523b96-1218-4ce6-80f3-4480ec180b1a|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|60300000|56750000|b6acfe5c-5b83-4526-bc89-ef53ba352eda|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|60367500|58000000|6afc4caa-5118-408d-95e6-dfea3d58712d|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|61250000|46750000|7b93b844-f43b-4c9a-9749-9741f67ec4fb|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|75500000|67750000|4940f5f3-de68-4657-be37-7af34397d820|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|75500000|69250000|2a1a4211-0e89-46f2-bace-8fabd4719387|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -466,12 +473,12 @@
       "gencad": "",
       "idf": "SmoothBusT2A.emn",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "SmoothBusT2Ascrwholes.step",
+      "step": "SmoothBusT2Ascrwholes2.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "SmoothBusT2A.wrl"
     },
     "page_layout_descr_file": ""
   },
