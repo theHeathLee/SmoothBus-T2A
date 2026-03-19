@@ -23,6 +23,7 @@
 #define VIN 5
 #define VREF 5
 #define SERVO_STEP_DELAY 15 // delay between steps in servo moves for smoother motion
+#define SERVO_DEADBAND 2 // minimum position change (degrees) before moving servo
 #define READ_DELAY_MS 200 // fuel read frequency
 #define MIN_RAW 10 // fuel sender tabs should be bent so that at FULL its 10 ohms
 #define MAX_RAW 79 // fuel sender tabs should be bent so that at EMPTY its 79 ohms
@@ -85,6 +86,7 @@ class SmoothBus {
         delay(13);
       }
       delay(750);
+      servo.detach();
     }
 
     void readFuelSender() {
@@ -153,13 +155,14 @@ class SmoothBus {
         }
 
         sender_pos = out_min + (out_max - out_min) * (current_avg - in_min) / (in_max - in_min);
-        if (sender_pos != this->servo_pos) {
+        if (abs(sender_pos - this->servo_pos) > SERVO_DEADBAND) {
           setServoPos(sender_pos);
         }
       }
     }
 
     void setServoPos(int pos) {
+      servo.attach(this->servo_pin);
       // go in steps instead of shoot to position
       while (this->servo_pos != pos) {
         if (pos > this->servo_pos) {
@@ -169,6 +172,8 @@ class SmoothBus {
         }
         delay(SERVO_STEP_DELAY);
       }
+      delay(200); // let servo settle before detaching
+      servo.detach();
     }
 
     float runningAverage(float resistance) {
