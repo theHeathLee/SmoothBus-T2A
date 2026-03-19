@@ -38,13 +38,13 @@ class SmoothBus {
     // resistance values based on info from here:
     // https://www.thesamba.com/vw/forum/viewtopic.php?t=693930
     int in_full = 10;
-    int in_half = 21;
-    int in_quarter = 33;
-    int in_r = 45;
+    int in_half = 40;
+    int in_quarter = 55;
+    int in_r = 70; 
     int in_empty = 79;
 
     // servo values that matched my setup
-    int out_full = 28;
+    int out_full = 10;
     int out_half = 53;
     int out_quarter = 71;
     int out_r = 81;
