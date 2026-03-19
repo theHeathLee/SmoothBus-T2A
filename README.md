@@ -8,3 +8,10 @@ An addaption of the [Smoothbus project](https://github.com/PegorK/SmoothBus/tree
 
 
 ![alt tag](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/explodeddiagramrender.png?raw=true "exploded view")
+
+
+![face removed](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/faceremoved.jpg?raw=true)
+
+![iluminated](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/iluminated.jpg?raw=true)
+
+![paper](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/paperlayout.jpg?raw=true)
