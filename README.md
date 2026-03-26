@@ -45,6 +45,8 @@ SmoothBus-T2A/
 
 ## Photos
 
+![gauge](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/gaugegs.png?raw=true)
+
 ![Exploded view render](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/explodeddiagramrender.png?raw=true)
 
 ![Face removed](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/faceremoved.jpg?raw=true)
