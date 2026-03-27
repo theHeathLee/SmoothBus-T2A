@@ -45,15 +45,20 @@ SmoothBus-T2A/
 
 ## Photos
 
-![gauge](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/gaugegs.jpg?raw=true)
-
-![Exploded view render](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/explodeddiagramrender.png?raw=true)
-
-![Face removed](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/faceremoved.jpg?raw=true)
-
-![Illuminated](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/iluminated.jpg?raw=true)
-
-![Paper layout](https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/paperlayout.jpg?raw=true)
+<table>
+  <tr>
+    <td><img src="https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/animation.gif?raw=true" alt="Animation"></td>
+    <td><img src="https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/gaugegs.jpg?raw=true" alt="Gauge"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/explodeddiagramrender.png?raw=true" alt="Exploded view render"></td>
+    <td><img src="https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/faceremoved.jpg?raw=true" alt="Face removed"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/iluminated.jpg?raw=true" alt="Illuminated"></td>
+    <td><img src="https://github.com/theHeathLee/SmoothBus-T2A/blob/main/pictures/paperlayout.jpg?raw=true" alt="Paper layout"></td>
+  </tr>
+</table>
 
 ## Credits
 
